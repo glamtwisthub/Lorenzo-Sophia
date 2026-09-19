@@ -397,7 +397,7 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 18%;
 }
 
 .hero-copy {
@@ -688,9 +688,15 @@ button {
 }
 
 .photo-frame img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.ratio-wide img {
+  object-position: center 20%;
 }
 
 .ratio-4-5 {
@@ -772,8 +778,21 @@ button {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .gallery figure:nth-child(2),
-  .gallery figure:nth-child(4) {
+  .gallery figure:nth-child(even) {
+    align-self: end;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .gallery figure:nth-child(even) {
+    align-self: auto;
+  }
+
+  .gallery figure:nth-child(3n + 2) {
     align-self: end;
   }
 }
