@@ -772,17 +772,6 @@ button {
   }
 }
 
-.gallery figcaption {
-  margin-top: 0.75rem;
-  display: flex;
-  justify-content: space-between;
-  gap: 0.6rem;
-  font-size: 0.6rem;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
 @media (min-width: 640px) {
   .gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
