@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conferma — Lorenzo &amp; Giulia</title>
+  <meta name="description" content="Conferma la tua presenza al matrimonio di Lorenzo e Giulia entro il 30 aprile 2027.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect fill='%230A0A0A' width='64' height='64'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia' font-size='22' fill='white'%3EL%26G%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">L&amp;G</a>
+      <button class="menu-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="menu">
+        Menu
+        <span class="menu-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+      <nav class="nav" id="menu" data-nav>
+        <button class="nav-close" type="button" data-nav-close>Chiudi</button>
+        <a class="nav-link" href="index.html">Invito</a>
+        <a class="nav-link" href="storia.html">Storia</a>
+        <a class="nav-link" href="programma.html">Programma</a>
+        <a class="nav-link" href="galleria.html">Galleria</a>
+        <a class="nav-link nav-rsvp" href="conferma.html" aria-current="page">Conferma</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto" class="page wrap">
+    <section class="page-title">
+      <p class="kicker" data-rsvp-kicker>Conferma — passo 1 di 2</p>
+      <h1 class="display" data-rsvp-title>Raccontaci chi sei</h1>
+    </section>
+
+    <section class="rsvp-shell">
+      <form data-rsvp-form novalidate>
+        <p class="saved-banner hidden" data-saved-banner>Abbiamo già una risposta da questo dispositivo. Puoi aggiornarla qui sotto e salvare di nuovo.</p>
+
+        <div data-step="1" class="form-stack">
+          <p class="status status-empty" data-empty>I campi sono vuoti: inizia dal nome che compare sul tuo invito. Nulla parte da questo browser finché non invii la conferma.</p>
+          <label class="field">
+            <span>Nome e cognome</span>
+            <input id="guest-name" name="name" type="text" autocomplete="name" placeholder="Come compare sul tuo invito">
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input id="guest-email" name="email" type="email" autocomplete="email" placeholder="tu@esempio.it">
+          </label>
+          <p class="status status-error" data-error="1" hidden></p>
+          <button class="btn" type="button" data-next>Continua</button>
+        </div>
+
+        <div data-step="2" class="form-stack hidden">
+          <div class="field">
+            <span class="choice-label">Parteciperai?</span>
+            <div class="choices">
+              <button class="choice" type="button" data-attend="yes" aria-pressed="false">
+                <p>Accetto con gioia</p>
+                <small hidden>Selezionato</small>
+              </button>
+              <button class="choice" type="button" data-attend="no" aria-pressed="false">
+                <p>Purtroppo non posso</p>
+                <small hidden>Selezionato</small>
+              </button>
+            </div>
+          </div>
+
+          <div data-yes-extras class="form-stack hidden">
+            <label class="field">
+              <span>Ospiti nel tuo gruppo</span>
+              <select id="guest-party" name="party">
+                <option value="1">Solo io</option>
+                <option value="2">In due</option>
+                <option value="3">In tre</option>
+                <option value="4">In quattro</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Esigenze alimentari</span>
+              <input id="guest-diet" name="diet" type="text" placeholder="Facoltativo">
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Un messaggio per Lorenzo e Giulia</span>
+            <textarea id="guest-note" name="note" rows="4" placeholder="Facoltativo"></textarea>
+          </label>
+
+          <p class="status status-loading" data-loading hidden></p>
+          <p class="status status-error" data-error="2" hidden></p>
+
+          <div class="btn-row">
+            <button class="btn btn-ghost" type="button" data-back>Indietro</button>
+            <button class="btn" type="submit" data-submit>Invia conferma</button>
+          </div>
+        </div>
+
+        <div data-step="3" class="hidden">
+          <p class="confirm-copy" data-confirm-copy></p>
+          <div class="confirm-facts">
+            <div>
+              <p class="kicker">Nome</p>
+              <p data-confirm-name></p>
+            </div>
+            <div>
+              <p class="kicker">Presenza</p>
+              <p data-confirm-attend></p>
+            </div>
+            <div>
+              <p class="kicker">Gruppo</p>
+              <p data-confirm-party></p>
+            </div>
+          </div>
+          <div class="btn-row confirm-actions">
+            <button class="btn btn-ghost" type="button" data-edit>Modifica risposta</button>
+            <a class="btn" href="galleria.html">Sfoglia la galleria</a>
+          </div>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="mark">L&amp;G</p>
+      <p>5 giugno 2027 · Cantico dei Cantici 6:3 · Foto: Pixabay e Wikimedia Commons</p>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
