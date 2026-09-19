@@ -699,10 +699,6 @@ button {
   object-fit: cover;
 }
 
-.ratio-wide img {
-  object-position: center 55%;
-}
-
 .ratio-4-5 {
   aspect-ratio: 4 / 5;
 }
@@ -713,11 +709,6 @@ button {
 
 .ratio-1-1 {
   aspect-ratio: 1 / 1;
-}
-
-.ratio-wide {
-  aspect-ratio: 16 / 7;
-  min-height: 12rem;
 }
 
 .caption {
