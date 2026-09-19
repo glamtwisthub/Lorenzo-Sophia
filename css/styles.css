@@ -762,6 +762,12 @@ button {
   margin: 0;
 }
 
+@media (min-width: 768px) {
+  .gallery-mobile-only {
+    display: none;
+  }
+}
+
 .gallery figcaption {
   margin-top: 0.75rem;
   display: flex;
