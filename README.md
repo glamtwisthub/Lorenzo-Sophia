@@ -39,7 +39,7 @@ This site follows **v3**: Italian copy, L&G masthead, Song of Songs 6:3, Villa I
 
 ## Dates
 
-The prototype said Saturday 7 June **2025** (already past). This site uses **Saturday 5 June 2027** (the nearest Saturday to 7 June in 2027) and an RSVP deadline of **30 April 2027**.
+The prototype said Saturday 7 June **2025**. This site uses **Saturday 23 May 2026** (`sabato 23 maggio 2026`) and an RSVP deadline of **25 January 2026** (`25 gennaio 2026`).
 
 ## Photos
 
