@@ -111,11 +111,22 @@ button {
   top: 0;
   z-index: 40;
   background: rgba(255, 255, 255, 0.94);
-  backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--ink);
 }
 
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+
 .header-inner {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -164,7 +175,10 @@ button {
   flex-direction: column;
   position: fixed;
   inset: 0;
-  z-index: 50;
+  z-index: 60;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
   background: var(--paper);
   padding: 1.25rem var(--pad) 2rem;
   overflow: auto;
