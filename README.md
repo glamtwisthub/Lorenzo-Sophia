@@ -1,6 +1,6 @@
-# Lorenzo & Giulia
+# Lorenzo & Sophia
 
-A lightweight wedding website for Lorenzo and Giulia: invitation, story, schedule and venue, gallery, and a client-side RSVP.
+A lightweight wedding website for Lorenzo and Sophia: invitation, story, schedule and venue, gallery, and a client-side RSVP.
 
 The site is static HTML, CSS, and a small amount of vanilla JavaScript. There is no build step, no npm app, no database, and no accounts. RSVP replies stay in the browser (`localStorage`).
 
@@ -31,11 +31,11 @@ Any other uncommon port is fine. Do not use 3000, 5173, or 8080 if you can avoid
 The repo was adapted from a Designer’s Canvas export named like `Derrick Hannah wedding app.zip`. That zip is **not** a finished website. It contained:
 
 - `Wedding App.dc.html` and `Wedding App v2.dc.html` — English Derrick & Hannah prototypes (cream/olive, Cormorant Garamond)
-- `Wedding App v3.dc.html` — Italian Lorenzo & Giulia editorial layout (Bodoni Moda + Jost, black rules, magazine masthead)
+- `Wedding App v3.dc.html` — Italian Lorenzo & Sophia editorial layout (Bodoni Moda + Jost, black rules, magazine masthead)
 - placeholder `image-slot.js` / `support.js` runtime files
 - cropped UI screenshots of story and gallery frames
 
-This site follows **v3**: Italian copy, L&G masthead, Song of Songs 6:3, Villa Il Garofalo in Fiesole, two-step RSVP.
+This site follows **v3**: Italian copy, L&S masthead, Song of Songs 6:3, Villa Il Garofalo in Fiesole, two-step RSVP.
 
 ## Dates
 
@@ -45,4 +45,4 @@ The prototype said Saturday 7 June **2025**. This site uses **Saturday 23 May 20
 
 The couple’s photographs are in `img/`, resized (longest side at most 1800px) and re-encoded as stripped JPEGs. Cover, story, venue frames, and a fourteen-image gallery use all eighteen pictures.
 
-`Via del Garofalo 12` and `lorenzo.giulia@esempio.it` come from the prototype. Treat them as placeholders until the couple confirms a real address and inbox.
+`Via del Garofalo 12` and `lorenzo.sophia@esempio.it` come from the prototype. Treat them as placeholders until the couple confirms a real address and inbox.

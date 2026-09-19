@@ -1,5 +1,5 @@
 (function () {
-  var STORAGE_KEY = "lorenzo-giulia-rsvp";
+  var STORAGE_KEY = "lorenzo-sophia-rsvp";
   var nav = document.querySelector("[data-nav]");
   var toggle = document.querySelector("[data-nav-toggle]");
   var closeBtn = document.querySelector("[data-nav-close]");
@@ -262,7 +262,7 @@
       if (!ok) {
         showError(
           errorEl,
-          "Non siamo riusciti a salvare la risposta su questo dispositivo. Riprova, oppure scrivici a lorenzo.giulia@esempio.it."
+          "Non siamo riusciti a salvare la risposta su questo dispositivo. Riprova, oppure scrivici a lorenzo.sophia@esempio.it."
         );
         return;
       }
