@@ -45,4 +45,4 @@ The prototype said Saturday 7 June **2025**. This site uses **Saturday 23 May 20
 
 The couple’s photographs are in `img/`, resized (longest side at most 1800px) and re-encoded as stripped JPEGs. Cover, story, venue frames, and a fourteen-image gallery use all eighteen pictures.
 
-`Via del Garofalo 12` and `lorenzo.sophia@esempio.it` come from the prototype. Treat them as placeholders until the couple confirms a real address and inbox.
+Contact for the couple is `lozenzo.C96@gmail.com`. `Via del Garofalo 12` is still a prototype venue address unless they confirm otherwise.

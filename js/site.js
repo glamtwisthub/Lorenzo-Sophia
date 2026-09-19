@@ -262,7 +262,7 @@
       if (!ok) {
         showError(
           errorEl,
-          "Non siamo riusciti a salvare la risposta su questo dispositivo. Riprova, oppure scrivici a lorenzo.sophia@esempio.it."
+          "Non siamo riusciti a salvare la risposta su questo dispositivo. Riprova, oppure scrivici a lozenzo.C96@gmail.com."
         );
         return;
       }
